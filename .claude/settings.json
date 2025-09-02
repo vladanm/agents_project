@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "defaultMode": "plan",
+    "description": "Default to Plan Mode for safe research planning"
+  },
+  "project": {
+    "name": "Deep Research Agentic System",
+    "version": "1.0.0",
+    "description": "Multi-agent system for comprehensive research using Claude Code CLI"
+  }
+}

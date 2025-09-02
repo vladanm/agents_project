@@ -1,0 +1,12 @@
+Checking MCP server health...
+
+postgres: npx -y postgres-mcp-server - ✓ Connected
+typesense: npx -y typesense-mcp-server - ✗ Failed to connect
+desktop-commander: npx -y @wonderwhy-er/desktop-commander - ✓ Connected
+kminfra-swagger: swagger-mcp --specUrl=https://dev-api.kminfra.net/docs-json --baseUrl=https://dev-api.kminfra.net/docs-json - ✓ Connected
+maestro: /usr/bin/java -classpath /Users/vladanm/.maestro/lib/* maestro.cli.AppKt mcp - ✓ Connected
+mcp-atlassian: docker run -i --rm -e CONFLUENCE_URL -e CONFLUENCE_USERNAME -e CONFLUENCE_API_TOKEN -e JIRA_URL -e JIRA_USERNAME -e JIRA_API_TOKEN ghcr.io/sooperset/mcp-atlassian:latest - ✗ Failed to connect
+memory: npx -y @modelcontextprotocol/server-memory - ✓ Connected
+mongodb: npx -y mongodb-mcp-server - ✓ Connected
+playwright: npx -y @playwright/mcp --headless - ✓ Connected
+sqlite: npx -y mcp-sqlite-server /Users/vladanm/projects/ai-tests/reports.db - ✓ Connected
